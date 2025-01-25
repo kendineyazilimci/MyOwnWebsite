@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    overflow-x: hidden;
+}
+
+h1
+{
+    position: relative;
+    top: 120px;
+    left: 40px;
+    color: #333;
+    font-size: 100px;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    z-index: 1;
+}
+h2
+{
+    position: relative;
+    top: 120px;
+    left: 45px;
+    color: #333;
+    font-size: 60px;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    z-index: 1;
+}
+a{
+    color: #333;
+}
+.merhababenozan{
+    position: relative;
+    top: 830px;
+    left: 1000px;
+    color: #333;
+    font-size: 45px;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    z-index: 1;
+}
+.projelerimlink{
+    position: relative;
+    top: 1580px;
+    left: 668px;
+    color: #333;
+    font-size: 55px;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    z-index: 1;
+}
+.anasayfadiv
+{
+    position: relative;
+    background-color: #838383;
+    font-size: 20px;
+    width: 100%;
+    height: 3500px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.ozanguneysu1image, .tanitimimage, .pacmanmenüimage, .pacmanoyunimage, 
+.codeigniteranasayfa, .codeignitermesaj1, .codeignitermesaj2, .codeigniteradmin, 
+.hesapmakinesi, .github1, .github2{
+    position: absolute;
+    z-index: 0;
+    display: block;
+}
+.ozanguneysu1image {
+    right: 0px;
+    top: 0px;
+    width: 1300px;
+    height: auto;
+    -webkit-mask-image: linear-gradient(to right, transparent, black);
+    mask-image: linear-gradient(to right, transparent, black);
+}
+.tanitimimage{
+    left: 0px;
+    top: 974.5px;
+    width: 1800px;
+    height: auto;
+    -webkit-mask-image: linear-gradient(to left, transparent, black);
+    mask-image: linear-gradient(to left, transparent, black);
+}
+.pacmanmenüimage{
+    right: 0px;
+    top: 1864px;
+    width: 603px;
+    height: auto;
+}
+.pacmanoyunimage{
+    right: 0px;
+    top: 2338px;
+    width: 500px;
+    height: auto;
+}
+.codeigniteranasayfa{
+    left: 0px;
+    top: 1863px;
+    width: 700px;
+    height: auto;
+}
+.codeignitermesaj1{
+    left: 0px;
+    top: 2813px;
+    width: 400px;
+    height: auto;
+}
+.codeignitermesaj2{
+    left: 0px;
+    top: 2197px;
+    width: 600px;
+    height: auto;
+}
+.codeigniteradmin{
+    left: 700px;
+    top: 1863px;
+    width: 600px;
+    height: auto;
+}
+.hesapmakinesi{
+    right: 0px;
+    top: 2905px;
+    width: 850px;
+    height: auto;
+}
+.github1{
+    left: 400px;
+    top: 2814px;
+    width: 653px;
+    height: auto;
+}
+.github2{
+    left: 400px;
+    top: 3143px;
+    width: 653px;
+    height: auto;
+}
+.hidden {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
