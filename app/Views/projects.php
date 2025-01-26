@@ -11,32 +11,30 @@
 </head>
 <body>
     <?php include 'header.php'; ?>
-    <div class="projectsdiv hidden">
-        <h1>My Projects</h1>
-        <h2>Here are the projects that made by me:</h2>
-    </div>
+        <h1>Projelerim:</h1>
         <div class="project1 hidden">
-                <h3 class="myBestProject">My Social Media Project</h3>
-            <p><br>This project is I made with HTML, CSS and PHP. It is a simple project that I made for my school project.</p>
-            <a href="codeigniterproject" name="codeigniterprojecta" class="codeigniterprojecta" > <br> Click</a>  For See a Project
+                <h3 class="myBestProject">Mesajlaşma Sitem</h3>
+            <p><br>Bu proje, asıl olarak sosyal medya yapmak için yola çıktığım fakat zamanım kısıtlı olduğu için mesajlaşma uygulamasına çevirdiğim projemdir.</p>
+             <p><br>Görmek için <a href="projelerim/mesajlasmasitesi" name="codeigniterprojecta" class="codeigniterprojecta" >tıklayınız.</a></p>
         </div>
         <div class="project2 hidden">
-            <h3 class="projectPacMan">My PacMan Project</h3>
-            <p><br>This is a basic game project is I made with Python and using PyGame Library</p>
-            <a href="pacmanproject" name="pacmanprojecta" class="pacmanprojecta" > <br> Click</a>  For See a Project
+            <h3 class="projectPacMan">PacMan Oyunum</h3>
+            <p><br>Bu proje, Python dilinde ve PyGame kütüphanesi kullanılarak oluşturulmuş ana menüye ve 1 adet bölüme sahip bir pacman oyunudur.</p>
+            <p><br>Görmek için <a href="pacmanproject" name="pacmanprojecta" class="pacmanprojecta" >tıklayınız.</a></p>
         </div>
         <div class="project3 hidden">
-            <h3 class="projectCalculator">My Calculator Project</h3>
-            <p><br>I made this project when I first started learning software times. this is a basic calculator project run on the terminal. I made this with C#</p>
-            <a href="calculatorproject" name="calculatorprojecta" class="calculatorprojecta" > <br> Click</a>  For See a Project
+            <h3 class="projectCalculator">Hesap Makinesi Projem</h3>
+            <p><br>Bu, C# dili kullanarak yaptığım terminal üzerinde çalışan bir hesap makinesi uygulamasıdır. Asıl istediğim alanı bilmediğim zamanlarda deneyim kazanmak için yapmıştım.</p>
+            <p><br>Görmek için <a href="calculatorproject" name="calculatorprojecta" class="calculatorprojecta" >tıklayınız.</a></p>
         </div>
         <div class="project4 hidden">
-            <h3 class="githubProjects">My Projects on the Github</h3>
-            <p><br> My main projects are done. Here is the so basic projects:</p>
-            <a href="githubproject" name="githubprojecta" class="githubprojecta" > <br> Click</a>  For See a Projects
+            <h3 class="projectVet">Veteriner Sitem</h3>
+            <p><br> Ve başka bir PHP projem de veteriner sitem vardı fakat bilgisayarımı formatlayacağım zaman yedeklemediğim için sitemin kodları silindi. Profesyonel sayılmazdı fakat yine de uğraştığım bir siteydi.</p>
         </div>
-        <div class="veteriner hidden">
-            <h3>And I make a Veteriner website but i formatted my pc and its gone i cannot show this :(. </h3>
+        <div class="githubprojects hidden">
+            <h3 class="githubProjects">GitHub'ım</h3>
+            <p><br>Asıl projelerim bunlar ve şu an gördüğünüz sitemdi fakat yaptığım birkaç tane daha küçük projem var. GitHub üzerinden ulaşabilirsiniz:</p>
+            <a href="https://github.com/kendineyazilimci"  class="githubprojecta" ><br>Tıklayınız.</a>
         </div>
     <script>
         document.addEventListener("DOMContentLoaded", function() {

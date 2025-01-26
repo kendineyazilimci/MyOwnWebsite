@@ -14,9 +14,25 @@
     <div class="contactdiv hidden">
         <h1>Hoşgeldiniz. <br> Mail Üzerinden Bana Ulaşmak İçin:</h1>
     </div>
-    <div style="overflow: hidden; height: 100%; width: 100%;">
-        <img src="Images/person.png" class="personimage" style="max-width: 100%; height: auto;">
-        <a href="mailto:ozanguneysu6@gmail.com" class="maila" style="display: block; margin-top: 20px;">ozanguneysu6@gmail.com</a>
-    </div>
+    <img src="Images/person.png" class="personimage hidden" style="max-width: 100%; height: auto;">
+    <a href="mailto:ozanguneysu6@gmail.com" class="maila hidden">ozanguneysu6@gmail.com</a>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const hiddenElements = document.querySelectorAll('.hidden');
+            
+            const observer = new IntersectionObserver(function(entries, observer) {
+                entries.forEach(entry => {
+                    if(entry.isIntersecting) {
+                        entry.target.classList.add('fade-in');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.2 });
+
+            hiddenElements.forEach(el => {
+                observer.observe(el);
+            });
+        });
+    </script>
 </body>
 </html>

@@ -9,7 +9,7 @@
 body, html{
     margin: 0;
     padding: 0;
-    height: 1000px;
+    height: 900px;
     overflow-x: hidden;
     font-family: 'Raleway', sans-serif;
 }
@@ -29,10 +29,13 @@ a{
 .contactdiv{
     position: relative;
     top: 270px;
-    left: 65px;
+    left: 100px;
+    width: 1200px;
+    height: auto;
     color: #333;
     text-align: left;
     z-index: 1;
+    transition: opacity 1s ease-out, transform 1s ease-out;
 }
 .personimage{
     position: relative;
@@ -44,10 +47,27 @@ a{
 }
 .maila{
     position: relative;
-    top: 0px;
-    left: 1200px;
+    top: 40px;
+    left: 900px;
     color: #333;
     font-size: 40px;
-    text-align: left;
     z-index: 1;
+}
+.hidden {
+    opacity: 0;
+    transform: translateX(20px);
+}
+
+.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }

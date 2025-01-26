@@ -10,7 +10,6 @@
 body, html {
     margin: 0;
     padding: 0;
-    height: 100%;
     overflow-x: hidden;
     font-family: 'Raleway', sans-serif;
 }
@@ -23,22 +22,15 @@ h1, h2 {
 
 h1 {
     font-size: 100px;
+    position: relative;
+    top: 20px;
+    left: 65px;
 }
 
 h2 {
     font-size: 60px;
 }
-
-.projectsdiv {
-    position: relative;
-    top: 20px;
-    left: 65px;
-    color: #333;
-    text-align: left;
-    z-index: 1;
-}
-
-.project1, .project2, .project3, .project4, .veteriner {
+.project1, .project2, .project3, .project4, .githubprojects {
     position: relative;
     width: 550px;
     height: 700px;
@@ -65,7 +57,6 @@ h2 {
 .project2 {
     top: -720px;
     left: 640px;
-    transform: translateY(20px);
     transition-delay: 0.5s;
 }
 
@@ -74,30 +65,32 @@ h2 {
     left: 1240px;
     transition-delay: 1s;
 }
+.project3,p{
+    font-size: 35px;
+}
 
 .project4 {
     top: -1450px;
     left: 40px;
 }
 
-.veteriner {
+.githubprojects {
     top: -2170px;
     left: 640px;
     transition-delay: 0.5s;
 }
-
 a {
     text-transform: none;
     color: white;
     transition: color 0.3s;
-    text-decoration: none;
 }
 
 a:hover {
     color: #933c3c;
 }
-
-/* Gizli öğeler */
+.githubprojecta{
+    font-size: 35px;
+}
 .hidden {
     opacity: 0;
     transform: translateY(20px);
@@ -108,7 +101,6 @@ a:hover {
     transform: translateY(0);
 }
 
-/* Animasyon */
 @keyframes fadeIn {
     from {
         opacity: 0;

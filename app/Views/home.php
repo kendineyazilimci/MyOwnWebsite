@@ -20,7 +20,7 @@
             Kendimi sürekli geliştirmeye çalışıyor ve<br>kendi çapımda projeler 
             yapmaya<br>çalışıyorum. Yazılım, teknoloji ve her türlü <br> kişisel gelişim
             alanlarına meraklıyım ve <br> sürekli kendimi geliştirmeye çalışıyorum.</p>
-            <p class="projelerimlink hidden"> <a href="projects">Projelerime</a> Bakmak <br> İçin Tıklayabilirsiniz.</p>
+            <p class="projelerimlink hidden"> <a href="projelerim">Projelerime</a> Bakmak <br> İçin Tıklayabilirsiniz.</p>
             <img class="ozanguneysu1image hidden" src="Images/ozanguneysu.png" alt="Ozan Güneysu">
             <img class="tanitimimage hidden" src="Images/tanitim1.png" alt="Tanıtım">
             <img class="pacmanmenüimage hidden" src="Images/pacmanmenü.png" alt="PacMan Menü">

@@ -5,10 +5,10 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
-$routes->group('', ['namespace' => 'App\Controllers'], function($routes) {
-    $routes->get('/', 'Home::index');
-    $routes->get('/home', 'Home::index');
+$routes->get('/anasayfa', 'Home::index');
+$routes->group('/projelerim', ['namespace' => 'App\Controllers'], function($routes) {
+    $routes->get('/', 'Projects::index');
+    $routes->get('mesajlasmasitesi', 'Projects::codeigniterproject');
 });
-$routes->get('/projects', 'Projects::index');
-$routes->get('/codeigniterproject', 'Projects::codeigniterproject');
-$routes->get('/contact', 'Contact::index');
+$routes->get('/iletisim', 'Contact::index');
+$routes->get('/hakkimda', 'About::index');

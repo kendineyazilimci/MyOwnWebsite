@@ -4,9 +4,9 @@
         <img class="img" src="Images/logo3.png" alt="">
     </div>
     <div class="header-right">
-        <a href="home">Home</a>
-        <a href="about">About</a>
-        <a href="contact">Contact</a>
-        <a href="projects">Projects</a>
+        <a href="anasayfa">Anasayfa</a>
+        <a href="hakkimda">Hakkımda</a>
+        <a href="iletisim">İletişim</a>
+        <a href="projelerim">Projelerim</a>
     </div>
 </header>
